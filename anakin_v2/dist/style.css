@@ -5,16 +5,14 @@ body {
 }
 nav {
   display: flex;
-  align-content: flex-start;
   background: black;
   height: 40px;
   font-family: 'Josefin Sans', sans-serif;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 20px;
+  margin: 0;
 }
-section {
-  display: flex;
-}
+
 a {
   text-decoration: none;
   color: white;
@@ -22,12 +20,11 @@ a {
 }
 
 .first {
-  width: 30%;
-  
+   
 
 }
 .second {
-  width: 70%;
+  
    
 }
 header {
@@ -40,7 +37,7 @@ header {
   height: 400px;
   width: 500px;
   line-height: 60px;
-  letter-spacing: -1px; 
+  
 }
 
 h1 {
@@ -99,16 +96,13 @@ ul {
   background-color: #484848;
   color: white;
   text-align: left;
-  padding-top: 30px;
-  padding-left: 50px;
-  
+    
 }
 
 .quote:before {
   content:'\201c';
   font-size: 160px;
-  left: -5px;
-  
+    
 }
 
 .small {
