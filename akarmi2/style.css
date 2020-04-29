@@ -1,0 +1,29 @@
+.toprow, .bottomrow {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    border: solid 1px limegreen;
+}
+p {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+
+}
+.toprow {
+    background-color: khaki;
+
+}
+.bottomrow {
+    background-color: lightgray;
+}
+.top {
+    background-color:lightskyblue;
+}
+
+.bottom {
+    background-color: indianred;
+}

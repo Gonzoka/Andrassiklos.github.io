@@ -1,0 +1,18 @@
+.container, .b329 {
+    font-weight: bold;
+} 
+
+#b325, .b326 {
+    border: solid 1px green;
+    
+}
+#b325:hover, .b326:hover {
+    background-color: pink;
+}
+.big {
+    color: blue;
+}
+
+p {
+    background: yellow;
+}
