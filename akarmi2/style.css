@@ -1,8 +1,15 @@
+body {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
 .toprow, .bottomrow {
-    height: 40px;
-    width: 300px;
+    height:300px;
+    width: 40px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 10px;
     justify-content: space-evenly;
     border: solid 1px limegreen;
@@ -15,11 +22,12 @@ p {
 }
 .toprow {
     background-color: khaki;
-
 }
+
 .bottomrow {
     background-color: lightgray;
 }
+
 .top {
     background-color:lightskyblue;
 }

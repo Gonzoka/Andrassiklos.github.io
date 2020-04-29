@@ -12,7 +12,11 @@ nav {
   padding-top: 20px;
   margin: 0;
 }
+section {
+  border: solid 2px black;
 
+  
+}
 a {
   text-decoration: none;
   color: white;
@@ -20,12 +24,13 @@ a {
 }
 
 .first {
-   
+  width: 30%;
+  
 
 }
 .second {
-  
-   
+  width: 40%;
+  margin-left: 600px;
 }
 header {
   position: relative;
@@ -46,7 +51,7 @@ h1 {
   font-size: 30px;
   color: #222;
   line-height: 0px;
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 0px;
 }
 
@@ -102,7 +107,7 @@ ul {
 .quote:before {
   content:'\201c';
   font-size: 160px;
-    
+  
 }
 
 .small {
