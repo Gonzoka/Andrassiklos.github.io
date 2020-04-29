@@ -2,6 +2,7 @@ body {
   width: 1200px;
   margin: auto;
   
+  
 }
 nav {
   display: flex;
@@ -14,6 +15,8 @@ nav {
 }
 section {
   border: solid 2px black;
+  display: flex;
+  flex-direction: ;
 
   
 }
@@ -30,7 +33,7 @@ a {
 }
 .second {
   width: 40%;
-  margin-left: 600px;
+  
 }
 header {
   position: relative;
@@ -107,7 +110,6 @@ ul {
 .quote:before {
   content:'\201c';
   font-size: 160px;
-  
 }
 
 .small {
@@ -120,11 +122,9 @@ ul {
   position: absolute;
   bottom: 20px;
   left: 50px;
-  line-height: 80px;
-  
-  
-  
+  line-height: 80px; 
 }
+
 #first {
   height: 150px; 
   padding-top: 70px;
