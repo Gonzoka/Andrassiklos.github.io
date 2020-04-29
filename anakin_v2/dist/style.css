@@ -15,17 +15,19 @@ nav {
 }
 section {
   border: solid 2px black;
-  float: left;
-  clear: both;
-    
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+
 }
+
 a {
   text-decoration: none;
   color: white;
   font-size: 30px;
 }
 
-}
+
 header {
   position: relative;
   background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
